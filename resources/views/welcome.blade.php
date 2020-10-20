@@ -32,13 +32,13 @@
 
             <div class="content text-center">
                 <div class="title m-b-md">
-                    <h1 id="title" class="text-white p-4 m-4 bg-info">Shop Menu</h1>
+                    <h1 id="title" class="text-white p-4 m-4 bg-info">Shwe Food</h1>
                 </div>
 
                 <div class="links">
-                    <a href="/home" class="btn btn-info">ရရှိနိုင်သော အစားအစာများ</a>
+                    <a href="/home" class="btn btn-success">ရရှိနိုင်သော အစားအစာများ</a>
                     @auth
-                    <a href="/orders" class="btn btn-success">မှာယူထားသောစာရင်း</a>
+                    <a href="/orders" class="btn btn-info">မှာယူထားသောစာရင်း</a>
                     @endauth
                 </div>
             </div>

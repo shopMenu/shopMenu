@@ -14,7 +14,9 @@ class TableController extends Controller
      */
     public function index()
     {
-        return view('tables');
+        $tables = table::all();
+        $lastID = table::orderBy('id','DESC')->first();
+        return view('tables')->with(compact('tables','lastID'));
     }
 
     /**
@@ -35,7 +37,11 @@ class TableController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $table = new table;
+        $table->table_name = $request->addTable;
+        $table->save();
+        return redirect(url('/admin/tables'));
+
     }
 
     /**
@@ -78,8 +84,10 @@ class TableController extends Controller
      * @param  \App\table  $table
      * @return \Illuminate\Http\Response
      */
-    public function destroy(table $table)
+    public function destroy($id)
     {
-        //
+        $table = table::find($id)->delete();
+        
+        return redirect(url('/admin/tables'));
     }
 }
