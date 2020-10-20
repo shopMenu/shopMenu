@@ -30,4 +30,9 @@ class HomeController extends Controller
     {
         return view('orders');
     }
+
+    public function admin()
+    {
+        return view('admin');
+    }
 }

@@ -15,30 +15,30 @@
                         <div class="col m-1 p-2 btn btn-outline-info">ဖျော်ရည်</div>
                     </div>
                     <div class="table-responsive">
-                    <table class="table table-striped w-100">
-                        <tr>
-                            <th>စဉ်</th>
-                            <th>အမည်</th>
-                            <th>စျေးနှုန်း</th>
-                            <th>Date</th>
-                            <td>Status</td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>ထမင်း</td>
-                            <td>1500</td>
-                            <td><a class="text-success">29-12-2020</a></td>
-                            <td class="text-info">Processing</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>ထမင်း</td>
-                            <td>1500</td>
-                            <td><a class="text-success">1-1-2020</a></td>
-                            <td>Done</td>
-                        </tr>
-                    </table>
-                </div>
+                        <table class="table table-striped w-100">
+                            <tr>
+                                <th>စဉ်</th>
+                                <th>အမည်</th>
+                                <th>စျေးနှုန်း</th>
+                                <th>Date</th>
+                                <td>Status</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>ထမင်း</td>
+                                <td>1500</td>
+                                <td><a class="text-success">29-12-2020</a></td>
+                                <td class="text-info">Processing</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>ထမင်း</td>
+                                <td>1500</td>
+                                <td><a class="text-success">1-1-2020</a></td>
+                                <td>Done</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
