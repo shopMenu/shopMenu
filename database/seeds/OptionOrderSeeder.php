@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use App\option_order;
 class OptionOrderSeeder extends Seeder
 {
     /**
@@ -11,6 +11,15 @@ class OptionOrderSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $faker = Faker\Factory::create();
+        for($i=0;$i<20; $i++){
+            $optionOrder = new option_order;
+            
+            $optionOrder->option_id = rand(1,5);
+            $optionOrder->order_id = rand(1,10);
+
+
+            $optionOrder->save();
+        }
     }
 }
